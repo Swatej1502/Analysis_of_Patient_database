@@ -1,5 +1,5 @@
 
-from werkzeug.wrappers import Request, Response
+from werkzeug.wrappers import Request
 from history import app
 from flask import render_template, redirect, url_for, flash, request, json
 from history.models import Item, User, Doctor, Admin
